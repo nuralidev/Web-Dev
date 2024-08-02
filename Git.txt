@@ -1,0 +1,39 @@
+$ clear                                                  // clear terminal
+$ touch .gitignore                                       // hide file,folder write file name in that  --{foldername}/*,except !{foldername}/{file name}
+$ git config  --global user.name                         // configuration | change mail,name and other user information
+$ git config alias.{new command} {command}               // change command to new command
+$ git init                                               // initialization | create .git file and start empty repository
+$ pwd                                                    // print working directory | show directory 
+$ cd ..                                                  // change directory | go one high directory
+$ mkdir                                                  // make directory | create new  driectory 
+$ touch {file name and extensions}                       // create new file
+$ ls                                                     // list file 
+$ ls -a                                                  // if you want see all file that may be hidden file
+$ git clone   {repository url}                           // clone remote repository
+$ git status                                             // check file status and changing
+$ git commmit   --m  {commit message}                    // write commit message
+$ git add  {file name}                                   // change unstaged file to staged file
+$ git add .                                              // change unstaged file to staged file all
+$ git log                                                // show all commit detail
+$ git log --oneline                                      // show all commit in one line
+$ git checkout {commit id} --.                           // return past  version  with commit id
+$ git checkout  -- {file name}                           // return past version   
+$ git diff                                               // show all file changing and difference 
+$ git diff   {file name}                                 // show only one  file changing and difference 
+$ git reset HEAD {file name }                            // unstage changing
+$ git rm {file name}                                     // delete file that you want
+$ git rm -r {folder name}/                               // delete folder and  file that you want
+$ git mv {file name} {new file name}                     // update file name
+$ git mv {file name} {folder name }/                     // change file location
+$ git mv {file name} {folder name } / {new file name}    // update file name
+$ git remote add {repository name } {repository link}    // add file to you remote repository 
+$ git remote                                             // check remote repository
+$ git push -u {repository name} {branch name}            // upload you file folder to remote repository
+$ git pull {repository name} {branch name}               // update you local repository 
+$ git branch --all                                       // show all brach remote and local
+$ git fetch                                              // show branch 
+$ git branch {branch name}                               // create new branch  
+$ git checkout {branch}                                  // change branch
+$ git merge {branch name}                                // merge branchs (you may be pusht)
+$ git fetch -p                                           // update branch local and remote
+$ git branch -D {branch name}                            // delete branch name
