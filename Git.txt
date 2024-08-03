@@ -34,6 +34,6 @@ $ git branch --all                                       // show all brach remot
 $ git fetch                                              // show branch 
 $ git branch {branch name}                               // create new branch  
 $ git checkout {branch}                                  // change branch
-$ git merge {branch name}                                // merge branchs (you may be pusht)
+$ git merge {branch name}                                // merge branchs (you may be push)
 $ git fetch -p                                           // update branch local and remote
 $ git branch -D {branch name}                            // delete branch name
